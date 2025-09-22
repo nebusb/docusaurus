@@ -75,6 +75,7 @@ const config = {
     ],
   ],
   
+  // This is the correct way to include Root.js for the Tina CMS integration.
   clientModules: [
     require.resolve('./src/theme/Root.js'),
   ],
